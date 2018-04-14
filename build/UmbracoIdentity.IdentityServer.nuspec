@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>UmbracoIdentity.IdentityServer</id>
+    <title>Extension for UmbracoIdentity package to integrate with Identity Server</title>
+    <version>$version$</version>
+    <authors>Peter Stokes</authors>
+    <description>A library for extending UmbracoIdentity to integrate with IdentityServer</description>
+    <summary>A library for extending UmbracoIdentity to integrate with IdentityServer</summary>
+    <language>en-US</language>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/stokesy43/UmbracoIdentity.IdentityServer</projectUrl>
+    <tags>asp.net identity umbraco security authentication authorization owin identityserver openidconnect</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright © Peter Stokes $copyrightyear$</copyright>
+    <dependencies>
+      <dependency id="UmbracoIdentity" version="$version$" />
+      <dependency id="Microsoft.IdentityModel.Protocols.OpenIdConnect" version="5.2.1" />
+      <dependency id="IdentityModel" version="3.5.0" />
+
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="*.dll" target="lib\net45" />
+    <file src="*.pdb" target="lib\net45" />
+  </files>
+</package>
