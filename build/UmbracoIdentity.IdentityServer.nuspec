@@ -14,7 +14,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright © Peter Stokes $copyrightyear$</copyright>
     <dependencies>
-      <dependency id="UmbracoIdentity" version="$version$" />
+      <dependency id="UmbracoIdentity" version="6.0.0" />
       <dependency id="Microsoft.IdentityModel.Protocols.OpenIdConnect" version="5.2.1" />
       <dependency id="IdentityModel" version="3.5.0" />
 
