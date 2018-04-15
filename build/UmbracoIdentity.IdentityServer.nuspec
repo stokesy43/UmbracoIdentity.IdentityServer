@@ -18,9 +18,5 @@
       <dependency id="Microsoft.Owin.Security.OpenIdConnect" version="3.1.0" />
       <dependency id="IdentityModel" version="3.0.0" />
     </dependencies>
-  </metadata>
-  <files>
-    <file src="*.dll" target="lib\net45" />
-    <file src="*.pdb" target="lib\net45" />
-  </files>
+  </metadata>  
 </package>
